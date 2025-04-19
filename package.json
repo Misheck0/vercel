@@ -1,0 +1,17 @@
+{
+    "name": "fy-cargo-tracker",
+    "version": "1.0.0",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "puppeteer": "^21.9.0",
+      "@vercel/node": "^3.0.0"
+    },
+    "engines": {
+      "node": ">=18.x"
+    }
+  }
